@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: $primary;
+  font: 14px/2em "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1175px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  font-size: 25px;
+  z-index: 99;
+  color: $accent;
+  cursor: pointer;
+  transition: 1s;
+  opacity: 1;
+  &_hide {
+    opacity: 0;
+  }
+}

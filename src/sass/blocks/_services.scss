@@ -1,0 +1,32 @@
+.services {
+  padding: 100px 0 50px;
+  background: #f5f5f5;
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    margin-bottom: 55px;
+    width: calc(100% / 4.5);
+    min-width: 220px;
+    text-align: center;
+  }
+  &__img {
+    margin-bottom: 30px;
+  }
+  &__title {
+    margin-bottom: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__descr {
+    font-size: 16px;
+    line-height: 25px;
+    color: #787878;
+  }
+}

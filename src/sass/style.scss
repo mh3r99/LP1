@@ -1,0 +1,24 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import "./libs/magnific-popup";
+@import "./fonts/fonts";
+@import "./base/variables";
+@import "./base/base";
+
+* {
+  // outline: 2px solid red;
+  box-sizing: border-box;
+}
+
+@import "./blocks/hero";
+@import "./blocks/menu";
+@import "./blocks/about";
+@import "./blocks/skills";
+@import "./blocks/counters";
+@import "./blocks/gallery";
+@import "./blocks/works";
+@import "./blocks/services";
+@import "./blocks/testimonials";
+@import "./blocks/clients";
+@import "./blocks/forms";
+@import "./blocks/footer";
+@import "./base/media";

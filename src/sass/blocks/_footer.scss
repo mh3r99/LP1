@@ -1,0 +1,60 @@
+.footer {
+  min-height: 285px;
+  background: #000;
+  display: flex;
+  align-items: center;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 100%;
+    &_one {
+      margin-right: 70px;
+      max-width: 400px;
+    }
+    &_two {
+      margin-right: 70px;
+      max-width: 230px;
+    }
+    &_three,
+    &_four,
+    &_five {
+      max-width: 100px;
+    }
+
+    &_five {
+      margin-left: auto;
+    }
+  }
+  &__title {
+    margin-bottom: 28px;
+    font-size: 18px;
+    color: #fff;
+  }
+  &__copyright {
+    font-size: 15px;
+    color: $Lightgrey;
+  }
+  &__link {
+    display: block;
+    font-size: 15px;
+    color: $Lightgrey;
+    text-decoration: none;
+    transition: 0.3s all;
+    &:hover {
+      color: #fff;
+    }
+    &.m {
+      margin-bottom: 3px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

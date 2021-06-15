@@ -1,0 +1,22 @@
+.clients {
+  padding: 70px 0;
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    transition: 0.2s all;
+    opacity: 0.6;
+    padding-top: 5px;
+
+    &:hover {
+      opacity: 1;
+      padding-top: 0;
+    }
+  }
+}
