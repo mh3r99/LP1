@@ -1,2 +1,2 @@
 # LP
-https://mh3r99.github.io/LP/dist/index.html
+https://mh3r99.github.io/LP1/dist/index.html
